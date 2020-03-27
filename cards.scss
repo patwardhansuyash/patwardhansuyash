@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-left: 550px;;
+}
+.container {
+    margin: 100px 250px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    margin-right: -20px;
+    box-shadow: 2px 2px 5px 5px rgb(204, 203, 203);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+
+li:first-child:hover {
+    transform: translateY(-60px);
+    transition: ease-in-out .3s;
+    background-color: #7f78d2;
+    color: white;
+    
+    ~.cards3{
+        transform: translateX(50px); 
+    }
+    ~.cards2{
+        transform: translateX(50px); 
+    }
+    
+}
+li:nth-child(2):hover {
+    transform: translateY(-60px);
+    transition: ease-in-out .3s;
+    background-color: #efb1ff;
+    color: white;
+    
+    ~.cards3{
+        transform: translateX(50px);
+        
+    }
+    
+}
+li:last-child:hover {
+    transform: translateY(-60px);
+    transition: ease-in-out .3s;
+    background-color: #ffe2ff; 
+   
+    
+    
+}
+
+
+
